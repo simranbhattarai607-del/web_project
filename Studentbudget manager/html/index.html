@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Budget Manager</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Student Budget</h1>
+
+    <h2>Balance: ₹<span id="balance">0</span></h2>
+
+    <input type="text" id="text" placeholder="Description">
+    <input type="number" id="amount" placeholder="Amount (+income / -expense)">
+    <button onclick="addTransaction()">Add</button>
+
+    <ul id="list"></ul>
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
